@@ -13,7 +13,7 @@ if __name__ = "__main__":
 
     opp = argv[2]
 
-    if opp != '+' or opp != '-' or opp != '*' or opp != '/':
+    if (opp != '+' or opp != '-' or opp != '*' or opp != '/'):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
@@ -28,4 +28,3 @@ if __name__ = "__main__":
         print("{} * {} = {}".format(a, b, mul(a, b)))
     elif (opp == '/'):
         print("{} / {} = {}".format(a, b, div(a, b)))
-
