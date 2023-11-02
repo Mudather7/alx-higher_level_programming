@@ -13,5 +13,5 @@ if __name__ == "__main__":
         print("{}".format(sum1))
     else:
         for i in range(count):
-            sum1 += int(argv[i + 1]
-        print("{}".format(sum1)
+            sum1 += int(argv[i + 1])
+        print("{}".format(sum1))
