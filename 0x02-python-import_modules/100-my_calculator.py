@@ -24,6 +24,6 @@ if __name__ = "__main__":
     elif opp == '/':
         print("{} / {} = {}".format(a, b, div(a, b)))
 
-    elif opp != '+' or opp != '-' or opp != '*' or opp != '/':
+    if opp != '+' or opp != '-' or opp != '*' or opp != '/':
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
