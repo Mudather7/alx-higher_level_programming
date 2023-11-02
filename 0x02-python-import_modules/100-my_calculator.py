@@ -20,7 +20,7 @@ if __name__ = "__main__":
     a = int(argv[1])
     b = int(argv[3])
 
-    if (opp == '+')
+    if (opp == '+'):
         print("{} + {} = {}".format(a, b, add(a, b)))
     elif (opp == '-'):
         print("{} - {} = {}".format(a, b, sub(a, b)))
