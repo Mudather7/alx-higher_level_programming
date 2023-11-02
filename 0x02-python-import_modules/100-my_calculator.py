@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     opp = argv[2]
 
-    if (opp != '+' or opp != '-' or opp != '*' or opp != '/'):
+    if not (opp == '+' or opp == '-' or opp == '*' or opp == '/'):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
