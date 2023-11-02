@@ -13,7 +13,5 @@ if __name__ == "__main__":
     else:
         print("{} argument:".format(count))
 
-    i = 1
-    while(i <= count):
+    for i in range(count):
         print("{}: {}".format(i, argv[i]))
-        i += 1
