@@ -2,14 +2,11 @@
 
 def print_matrix_integer(matrix=[[]]):
 
-    for x in range(matrix):
-
-        for y in range(x):
-
-            print("{:2d}".format(y), end="")
-
-            if y != (len(matrix[x]) - 1):
-
+    for x in matrix:
+        count = 0
+        for y in x:
+            count += 1
+            print("{:d}".format(y), end="")
+            if count < len(x):
                 print(" ", end="")
-
-        print("")
+        print()
