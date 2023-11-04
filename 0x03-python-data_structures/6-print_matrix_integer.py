@@ -2,9 +2,9 @@
 
 def print_matrix_integer(matrix=[[]]):
 
-    for x in range(len(matrix)):
+    for x in range(matrix):
 
-        for y in range(len(matrix[x])):
+        for y in range(x):
 
             print("{:2d}".format(y), end="")
 
