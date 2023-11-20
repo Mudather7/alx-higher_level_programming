@@ -3,14 +3,14 @@
 def safe_print_division(a, b):
 
     try:
-        result = a / d
+        div = a / d
 
     except (ZeroDivisionError, TypeError):
 
-        pass
+        div = None
 
     finally:
 
-        print("Inside result: {}".format(result))
+        print("Inside result: {}".format(div))
 
-        return result
+        return div
