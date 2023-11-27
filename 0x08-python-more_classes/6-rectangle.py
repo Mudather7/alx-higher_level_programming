@@ -5,6 +5,8 @@
 class Rectangle:
     '''Representation of a Rectangle'''
 
+    number_of_instance = 0
+
     def __init__(self, width=0, height=0):
         '''Initializes the rectangle'''
         self.height = height
