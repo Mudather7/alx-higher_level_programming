@@ -49,6 +49,7 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         return ((("#" * self.width) + "\n") * self.height)[:-1]
+
     def __repr__(self):
         """Print the rectangle using eval."""
         return "Rectangle({}, {})".format(self.width, self.height)
