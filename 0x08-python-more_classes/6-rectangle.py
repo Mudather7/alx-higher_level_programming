@@ -11,7 +11,7 @@ class Rectangle:
         '''Initializes the rectangle'''
         self.height = height
         self.width = width
-        Rectangle.number_of_instancs += 1
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -46,7 +46,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
-            return (self.__width * 2) + (self.__height * 2)
+            return (2 * (self.__width + self.__height))
 
     def __str__(self):
         total = ""
