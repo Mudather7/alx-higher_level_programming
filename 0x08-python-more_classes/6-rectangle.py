@@ -49,10 +49,14 @@ class Rectangle:
             return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
-        '''print the rectangle'''
-        if self.width == 0 or self.height == 0:
-            return ""
-        return ((("#" * self.width) + "\n") * self.height)[:-1]
+        total = ""
+        if self.__height == 0 or self.__width == 0:
+            return total
+        for i in range(self.__height):
+            total += ("#" * self.__width)
+            if i is not self.__height - 1:
+                total += "\n"
+        return total
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
