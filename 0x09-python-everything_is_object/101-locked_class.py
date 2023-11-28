@@ -2,9 +2,10 @@
 '''Define a locked class.'''
 
 
-class LockeClass:
+class LockedClass:
+
     '''Prevents the user from instantiaing new LockedClass  attributes
     for anything but attribute called first_name.
     '''
 
-    __slots__ = ["First_name"]
+    __slots__ = ["first_name"]
