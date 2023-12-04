@@ -7,4 +7,4 @@ def MYlist(list):
     def print_sorted(self):
         '''Method for printing sorted list'''
 
-        return (sorted(self))
+        print (sorted(self))
