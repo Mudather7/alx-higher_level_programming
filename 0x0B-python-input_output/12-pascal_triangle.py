@@ -16,4 +16,4 @@ def pascal_triangle(n):
         tmp.append(1)
         array.append(tmp)
 
-        return array
+    return array
