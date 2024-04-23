@@ -6,4 +6,4 @@ const newDict = {};
 for (const [key, val] of Object.entries(dict)) {
   newDict[val] ? newDict[val].push(key) : (newDict[val] = [key]);
 }
-console.log(newDict)
+console.log(newDict);
