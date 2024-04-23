@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const Square = requare('/5-square');
+const Square = require('/5-square');
 
 class Square1 extends Square {
   charprint (c) {
