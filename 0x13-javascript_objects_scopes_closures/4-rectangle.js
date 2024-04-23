@@ -9,7 +9,7 @@ class Rectangle {
 	print () {
 		for (let i = 0; i < this.height; i++)
 			const row = [];
-		for (let j = 0; j < this.width; j++) row.push('X')
+		for (let j = 0; j < this.width; j++) row.push('X');
 		console.log(`${row.join('')}`);
 	}
 	double () {
@@ -17,7 +17,7 @@ class Rectangle {
 		this.height *= 2;
 	}
 	rotate () {
-		[this.width, this.height] = [this.height, this.width]
+		[this.width, this.height] = [this.height, this.width];
 	}
 }
 module.exports = Rectangle;
