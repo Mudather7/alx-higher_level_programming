@@ -19,7 +19,7 @@ def main(argv):
     try:
         profile_info = response.json()
         print(profile_info['id'])
-    except ValueError:
+    if response.json == {}:
         print('None')
 
 
